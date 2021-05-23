@@ -15,7 +15,7 @@ const paragraphs = [
             From window tinting to custom wrapping to protective film installation, all our \
             products and services adhere to the highest standards of quality and craftsmanship. \
             Rest assured that we only use the best supplies and equipment.",
-        time: 1500,
+        time: 2500,
     },
     {
         title: 'About',
@@ -25,7 +25,7 @@ const paragraphs = [
             we seek to cultivate life-long clients. Professionalism and transparency are our \
             operating principles while delivering real value to our clients is our ultimate goal. \
             Contact us today to start your journey.",
-        time: 1500,
+        time: 4000,
     }
 ];
 

@@ -47,6 +47,7 @@ export default function Header() {
     useEffect(() => {
         setChecked(true);
     }, []);
+    //**Check comments below, same issue
     /*const [anchorEl, setAnchorEl ] = React.useState(null);
     const handleClose = (element) => {
         element.scrollIntoView();
@@ -60,14 +61,14 @@ export default function Header() {
             <AppBar className={classes.appBar} elevation={0}>
                 <Toolbar className={classes.appbarWrapper}>
                     <h1 className={classes.appbarTitle}>Monza Motorsports</h1>
-                    <IconButton className={classes.menuButton} /*onClick={openMenu}*/>
+                    <IconButton className={classes.menuButton} /*onClick={openMenu}APART OF SAME ISSUE*/>
                         <SortIcon />
                     </IconButton>
                 </Toolbar>
             </AppBar>
             <Collapse 
             in={checked}
-            {...(checked ? { timeout: 1000 } : {})}
+            {...(checked ? { timeout: 2000 } : {})}
             collapsedHeight={50}>
             <div className={classes.container}>
                 <h1 className={classes.title}>Welcome home</h1>
